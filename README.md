@@ -1,7 +1,7 @@
 # Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data
+****
 <div align="full">
 The present diploma thesis focuses on the investigation of methods for the effective detection of ships in synthetic aperture radar satellite imagery utilizing deep learning techniques. These methods uses the Faster-RCNN and YOLOv5 network architectures to create three different detectors. More specifically, the first two models created are based on the Faster-RCNN network architecture and utilize a set of normal and rotated bounding boxes for the detection process. The one-stage detection network is based on the architecture of the YOLOv5 model and uses regular bounding boxes to delimit the estimated targets.The produced models are trained and evaluated on the HRSID dataset. The greatest accuracy is found in models that use regular bounding boxes to derive estimates. While, the model with rotated bounding boxes, shows the largest localization errors and is characterized by an increased number of false negative detections.
-
 </div align="full">
 
 
@@ -29,36 +29,35 @@ The model architecture is based on the general architecture of the **Faster-RCNN
 
 _Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
 
-
+<span style="color:">text</span>
 ## Model Performance
 
 <div align="left"> 
   
- **Mean Average Precision** 
+ ***Mean Average Precision***
   
 |          **Metric**        | **Faster - RCNΝ (Normal Bboxes)**     |**Faster - RCNΝ (Rotated Bboxes)** | **YOLOv5** |  **STANet<sup>1</sup>**  |  **DB-YOLO<sup>2</sup>**  |
 |:--------------------------:|:-------------------------------------:|:---------------------------------:|:----------:|:------------:|:-------------:|
-|AP<sup>0.50:.05:.95</sup> | 68.1|42.9|71.1|69.5|72.0|
-|AP<sup>0.50</sup> |  91.4|75.3|94.2|92.4|94.4|
-|AP<sup>0.75</sup> | 79.3|45.5|82.0|81.1|-|
-|AP<sup>small</sup> |91.4|75.3|94.2|92.4|-|
-|AP<sup>medium</sup> |91.4|75.3|94.2|92.4|-|
-|AP<sup>large</sup> |91.4|75.3|94.2|92.4|-|
+|AP<sup>0.50:.05:.95</sup> | *68.1*|*42.9*|*71.1*|*69.5*|***72.0***|
+|AP<sup>0.50</sup> |*91.4*|*75.3*|***94.2***|*92.4*|***94.4***|
+|AP<sup>0.75</sup> |*79.3*|*45.5*|***82.0***|*81.1*|-|
+|AP<sup>small</sup> |*69.3*|*41.3*|*62.9*|***70.9***|-|
+|AP<sup>medium</sup> |*68.5*|*51.1*|***80.7***|*68.6*|-|
+|AP<sup>large</sup> |*44.1*|*20.9*|***55.1***|*37.8*|-|
 
- **Mean Average Recall**  
+ ***Mean Average Recall***  
 |          **Metric**        | **Faster - RCNΝ (Normal Bboxes)**     |**Faster - RCNΝ (Rotated Bboxes)** | **YOLOv5** |  **STANet<sup>1</sup>**  |  **DB-YOLO<sup>2</sup>**  |
 |:--------------------------:|:-------------------------------------:|:---------------------------------:|:----------:|:------------:|:-------------:|
-|AR<sup>max=1</sup> |  91.4|75.3|94.2|92.4|-|
-|AR<sup>max=10</sup> |91.4|75.3|94.2|92.4|-|
-|AR<sup>max=100</sup> |91.4|75.3|94.2|92.4|-|
-|AR<sup>small</sup> |91.4|75.3|94.2|92.4|-|
-|AR<sup>medium</sup> |91.4|75.3|94.2|92.4|-|
-|AR<sup>large</sup> |91.4|75.3|94.2|92.4|-|
+|AR<sup>max=1</sup> |*27.8*|*21.9*|***28.2***|-|-|
+|AR<sup>max=10</sup> |*61.6*|*44.9*|***63.5***|-|-|
+|AR<sup>max=100</sup> |*74.0*|*48.3*|***75.9***|-|-|
+|AR<sup>small</sup> |***73.5***|*46.4*|*69.5*|-|-|
+|AR<sup>medium</sup> |*79.1*|*57.9*|***84.5***|-|-|
+|AR<sup>large</sup> |*64.3*|*29.7*|***65.1***|-|-|
 </div align="left">
   
-**<sup>1</sup> SOTA Two Stage Detector (Wang et. al.)**       
-**<sup>2</sup> SOTA One Stage Detector(Zhu et. al.)**
-
+*<sup>1</sup> SOTA Two Stage Detector (Wang et. al.)* [`See paper`](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9353475 )    
+*<sup>2</sup> SOTA One Stage Detector (Zhu et. al.)* [`See paper`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8662457/ )
 
 ## Results
 
