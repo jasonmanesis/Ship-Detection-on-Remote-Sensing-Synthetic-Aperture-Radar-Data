@@ -4,11 +4,7 @@
 The present diploma thesis focuses on the investigation of methods for the effective detection of ships in synthetic aperture radar satellite imagery utilizing deep learning techniques. These methods uses the Faster-RCNN and YOLOv5 network architectures to create three different detectors. More specifically, the first two models created are based on the Faster-RCNN network architecture and utilize a set of normal and rotated bounding boxes for the detection process. The one-stage detection network is based on the architecture of the YOLOv5 model and uses regular bounding boxes to delimit the estimated targets.The produced models are trained and evaluated on the HRSID dataset. The greatest accuracy is found in models that use regular bounding boxes to derive estimates. While, the model with rotated bounding boxes, shows the largest localization errors and is characterized by an increased number of false negative detections.
 </div align="full">
 
-
-
 ## HRSID (High-Resolution SAR Images Dataset) Properties.
-<div align="left">
- 
 * The specific dataset contains 116 co-polarized and 20 cross-polarized SAR imageries.
 * The original imageries for constructing HRSID are 99 Sentinel-1B imageries, 36 TerraSAR-X and 1 TanDEM-X imageries.
 * The above 136 panoramic SAR imageries cropped to 5604 high-resolution SAR images.
@@ -20,17 +16,23 @@ The present diploma thesis focuses on the investigation of methods for the effec
 * The annotations of each SAR image constitute a .json file in MS COCO dataset format.
 * Paper Link: https://ieeexplore.ieee.org/abstract/document/9127939
 * Dataset Link: https://github.com/chaozhong2010/HRSID 
-</div align="left">
 
 ## Proposed architectures of Faster-RCNN. 
-The model architecture is based on the general architecture of the **Faster-RCNN**, which includes the main modules of **Feature Pyramid Network**, **Region Proposal Network** as well as the model of **Fast-RCNN**. For the bottom-up pathway of the FPN network the architecture of the **ResNet50** was used.
+Feature Pyramid Network with ResNet backbone was used for the creation of P2-P6 spatial levels. Region Proposal Network receives serially the P2-P6 feature maps and for every Pi level creates a hidden representation which is then fed into regression and classification layers which are responsible for the estimation of the objectness logits and anchor deltas for every anchor in the Pi. 
 
-<img src="https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg">
+Application of deltas →  Sorting by objectness score for every Pi level →  Top n scored boxes/Pi →  NMS algorithm →   k ROIs are extracted. ROI (Box) Head takes the outputs from FPN and proposal boxes (ROIs) which are used to crop the regions of interest from the feature maps.ROIs→ pooling→ feature vectors → FC layers → class scores and box coordinates for a predefined number of bounding boxes in the batch.
 
-_Image source: https://miro.medium.com/max/2000/1*Wvn0WG4XZ0w9Ed2fFYPrXw.jpeg_
+![1_unZ995FzCFMCgrQ0l1R5mw](https://user-images.githubusercontent.com/74200033/159125727-d9468867-160a-4f52-8c45-41077360f7d8.png)
 
-<span style="color:">text</span>
-## Model Performance
+*Image source: https://medium.com/@hirotoschwert/digging-into-detectron-2-part-4-3d1436f91266*
+
+## Proposed architecture of YOLOv5.
+Backbone network is used for feature extraction and It uses the main modules of C3 (VGP+FLOPS↓) and SPPF (multiscale feature fusion). The PANet network creates a set of feature maps in 3 different spatial scales (P3-P5) which have 3 different anchors at every spatial location. The above tensors (P3-P5) are then fed into the corresponding layer of the “Head” network and after the application of a confidence threshold and the NMS algorithm the final bounding box predictions (class_id, x1, y1, x2, y2, confidence_score) were extracted.
+
+<img src="https://user-images.githubusercontent.com/74200033/159126071-ad5e279e-3506-44eb-85f4-5b654de6c15a.png" width="200" height="500">
+
+
+## Quantitative Evaluation
 
 <div align="left"> 
   
