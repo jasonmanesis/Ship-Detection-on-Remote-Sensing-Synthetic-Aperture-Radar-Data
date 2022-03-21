@@ -73,17 +73,18 @@ YOLOv5 is a one shot detector which contains 2 different networks: a) Feature Ex
 
 ## Qualitative Evaluation
 
-
+<div align="justify">
+  
 https://user-images.githubusercontent.com/74200033/159326738-64d82471-59b2-4965-b2f9-5b6779ef560e.mp4
 
+**Faster RCNN with normal bounding boxes**
+  
+https://user-images.githubusercontent.com/74200033/159348985-d98d0def-47b3-4205-bf3a-467512dc9fed.mp4
 
 
 **Original video at:** https://www.youtube.com/watch?v=q07TBd5o1HQ&t=35s
 
-https://user-images.githubusercontent.com/74200033/130357983-04dbce41-5e87-456c-ad55-a9769d1ec1d5.mp4
-
-**Original video at:** https://www.youtube.com/watch?v=5cEr5ZXGUYA    
-
+</div align="justify">
 
 ## Requirements
 
