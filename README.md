@@ -2,7 +2,7 @@
 
 <div align="justify">
   
-The present diploma thesis focuses on the investigation of methods for the effective detection of ships in synthetic aperture radar satellite imagery utilizing deep learning techniques. These methods use the Faster-RCNN and YOLOv5 network architectures to create three different detectors. More specifically, the first two models created are based on the Faster-RCNN network architecture and utilize a set of normal and rotated bounding boxes for the detection process. The one-stage detection network is based on the architecture of the YOLOv5 model and uses regular bounding boxes to delimit the estimated targets. The produced models are trained and evaluated on the HRSID dataset. The greatest accuracy is found in models that use regular bounding boxes to derive estimates. While, the model with rotated bounding boxes, shows the largest localization errors and is characterized by an increased number of false negative detections.
+The present project was conducted as part of my diploma thesis which focuses on the investigation of methods for the effective detection of ships in synthetic aperture radar satellite imagery utilizing deep learning techniques. These methods use the Faster-RCNN and YOLOv5 network architectures to create three different detectors. More specifically, the first two models created are based on the Faster-RCNN network architecture and utilize a set of normal and rotated bounding boxes for the detection process. The one-stage detection network is based on the architecture of the YOLOv5 model and uses regular bounding boxes to delimit the estimated targets. The produced models are trained and evaluated on the HRSID dataset. The greatest accuracy is found in models that use regular bounding boxes to derive estimates. While, the model with rotated bounding boxes, shows the largest localization errors and is characterized by an increased number of false negative detections.
   
 </div align="justify">
 
@@ -71,7 +71,7 @@ YOLOv5 is a one shot detector which contains 2 different networks: a) Feature Ex
 *<sup>1</sup> SOTA Two Stage Detector (Wang et. al.)* [`See paper`](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9353475 )    
 *<sup>2</sup> SOTA One Stage Detector (Zhu et. al.)* [`See paper`](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8662457/ )
 
-## Results
+## Qualitative Evaluation
 
 https://user-images.githubusercontent.com/74200033/130357982-c47f46ed-af8a-48c1-abeb-d4761eb707c6.mp4
 
