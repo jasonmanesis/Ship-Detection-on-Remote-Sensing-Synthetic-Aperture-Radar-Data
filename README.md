@@ -6,8 +6,8 @@ The present project was conducted as part of my diploma thesis which focuses on 
   
 </div align="justify">
 
-## HRSID (High-Resolution SAR Images Dataset) Properties.
-* The specific dataset contains 116 co-polarized and 20 cross-polarized SAR imageries.
+## HRSID Properties.
+* The High-Resolution SAR Images Dataset contains 116 co-polarized and 20 cross-polarized SAR imageries.
 * The original imageries for constructing HRSID are 99 Sentinel-1B imageries, 36 TerraSAR-X and 1 TanDEM-X images.
 * The above 136 panoramic SAR imageries cropped to 5604 high-resolution SAR images.
 * These 5604 images have dimensions of 800 × 800 pixels, resolution of 96 dpi, and there are in .jpeg format.
