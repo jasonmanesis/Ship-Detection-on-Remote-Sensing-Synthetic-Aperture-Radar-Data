@@ -8,3 +8,6 @@ For the qualitative evaluation, 5 different categories of scenes were selected, 
 * The other categories of images concern scenes in which are depicted: a)**noise artifacts**, b)**land sections with very high radiometric values** and c)**small islets**. The above 3 categories of scenes were selected to examine the robustness of each model to radiometric patterns which potentially resemble those of ships.
 
 </div align="justify">
+
+![fC](https://user-images.githubusercontent.com/74200033/159744416-3ac623fc-c8a0-4103-88ad-1c4d9d9f9503.png)
+
