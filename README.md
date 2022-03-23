@@ -32,6 +32,7 @@ Faster-RCNN is a two stage detection architecture and contains 3 different submo
 *Image source: https://medium.com/@hirotoschwert/digging-into-detectron-2-part-4-3d1436f91266*
 
 ## Proposed architecture of YOLOv5.
+
 <div align="justify">
   
 YOLOv5 is a one shot detector which contains 2 different networks: a) Feature Extraction Network (Backbone Network) and b) PANet. Backbone network is used for feature extraction and It uses the main modules of **C3** (VGP+FLOPS↓) and **SPPF** (multiscale feature fusion). The PANet network creates a set of feature maps in 3 different spatial scales (**P3-P5**) which have 3 different anchors at every spatial location. The above tensors (**P3-P5**) are then fed into the corresponding layer of the “Head” network and after the application of a confidence threshold and the NMS algorithm the final bounding box predictions (**class_id, x1, y1, x2, y2, confidence_score**) were extracted.
@@ -75,14 +76,13 @@ YOLOv5 is a one shot detector which contains 2 different networks: a) Feature Ex
 
 <div align="justify">
   
-https://user-images.githubusercontent.com/74200033/159326738-64d82471-59b2-4965-b2f9-5b6779ef560e.mp4
-
 **Faster RCNN with normal bounding boxes**
   
-https://user-images.githubusercontent.com/74200033/159348985-d98d0def-47b3-4205-bf3a-467512dc9fed.mp4
+https://user-images.githubusercontent.com/74200033/159692748-08e85410-c274-4692-a136-d7de7155a141.mp4
 
-
-**Original video at:** https://www.youtube.com/watch?v=q07TBd5o1HQ&t=35s
+**YOLOv5**
+  
+  
 
 </div align="justify">
 
