@@ -13,7 +13,7 @@
 
 ## Rotated Bounding Boxes
 
-| Ground Truth - Normal Bounding Boxes                              |Predictions: Faster-RCNN - Rotated Bounding Boxes| 
+| Ground Truth - Rotated Bounding Boxes                              |Predictions: Faster-RCNN - Rotated Bounding Boxes| 
 :------------------------------------------------------------------:|:----------------------------------------------------------:|
 <img src="/Qualitative Evaluation/Images/Scenes with small islets/GT_ROTATED/P0005_2400_3200_1200_2000.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with small islets/Predictions_FRCNN_rotated/P0005_2400_3200_1200_2000.jpg" width="600"/>| 
 |<img src="/Qualitative Evaluation/Images/Scenes with small islets/GT_ROTATED/P0005_3600_4400_3600_4400.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with small islets/Predictions_FRCNN_rotated/P0005_3600_4400_3600_4400.jpg" width="600"/>| 
