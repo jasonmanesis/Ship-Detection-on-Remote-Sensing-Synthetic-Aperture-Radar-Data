@@ -1,3 +1,7 @@
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](
+Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data/graphs/commit-activity)
+[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://github.com/JasonManesis/Ship-Detection-on-Remote-Sensing-Synthetic-Aperture-Radar-Data/commit/)
+
 # Ship Detection on Remote Sensing Synthetic Aperture Radar Data.
 
 <div align="justify">
