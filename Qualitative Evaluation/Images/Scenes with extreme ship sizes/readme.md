@@ -1,0 +1,23 @@
+# Scenes with extreme ship sizes
+
+## Normal Bounding Boxes
+
+| Ground Truth - Normal Bounding Boxes                              |Predictions: Faster-RCNN - Normal Bounding Boxes| Predictions: YOLOv5
+:------------------------------------------------------------------:|:----------------------------------------------------------:|:-----------------:
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT/P0106_4200_5000_18000_18800.jpg" width="400"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_normal/P0106_4200_5000_18000_18800.jpg" width="400"/>| <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_YOLOv5/P0106_4200_5000_18000_18800.jpg" width="400"/>|
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT/P0109_3000_3800_8400_9200.jpg" width="400"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_normal/P0109_3000_3800_8400_9200.jpg" width="400"/>| <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_YOLOv5/P0109_3000_3800_8400_9200.jpg" width="400"/>|
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT/P0109_4200_5000_9600_10400.jpg" width="400"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_normal/P0109_4200_5000_9600_10400.jpg" width="400"/>| <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_YOLOv5/P0109_4200_5000_9600_10400.jpg" width="400"/>|
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT/P0123_4800_5600_4800_5600.jpg" width="400"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_normal/P0123_4800_5600_4800_5600.jpg" width="400"/>| <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_YOLOv5/P0123_4800_5600_4800_5600.jpg" width="400"/>|
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT/P0128_3000_3800_4200_5000.jpg" width="400"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_normal/P0128_3000_3800_4200_5000.jpg" width="400"/>| <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_YOLOv5/P0128_3000_3800_4200_5000.jpg" width="400"/>|
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT/P0128_4200_5000_7800_8600.jpg" width="400"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_normal/P0128_4200_5000_7800_8600.jpg" width="400"/>| <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_YOLOv5/P0128_4200_5000_7800_8600.jpg" width="400"/>|
+
+## Rotated Bounding Boxes
+
+| Ground Truth - Rotated Bounding Boxes                              |Predictions: Faster-RCNN - Rotated Bounding Boxes| 
+:------------------------------------------------------------------:|:----------------------------------------------------------:|
+<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT_ROTATED/P0106_4200_5000_18000_18800.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_rotated/P0106_4200_5000_18000_18800.jpg" width="600"/>| 
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT_ROTATED/P0109_3000_3800_8400_9200.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_rotated/P0109_3000_3800_8400_9200.jpg" width="600"/>| 
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT_ROTATED/P0109_4200_5000_9600_10400.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_rotated/P0109_4200_5000_9600_10400.jpg" width="600"/>| 
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT_ROTATED/P0123_4800_5600_4800_5600.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_rotated/P0123_4800_5600_4800_5600.jpg" width="600"/>| 
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT_ROTATED/P0128_3000_3800_4200_5000.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_rotated/P0128_3000_3800_4200_5000.jpg" width="600"/>| 
+|<img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/GT_ROTATED/P0128_4200_5000_7800_8600.jpg" width="600"/> | <img src="/Qualitative Evaluation/Images/Scenes with extreme ship sizes/Predictions_FRCNN_rotated/P0128_4200_5000_7800_8600.jpg" width="600"/>| 
