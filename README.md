@@ -76,7 +76,7 @@ YOLOv5 is a one shot detector which contains 2 different networks: a) Feature Ex
 
 <div align="justify">
   
-I created a short video from the large **ALOS-2** scene which is provided in the [official repository](https://github.com/chaozhong2010/HRSID) of the HRSID dataset and I run the Faster-RCNN and YOLOv5 models with normal bounding boxes. The rotated bounding boxes are not supported by the Detectron2 framework for video inference so the corresponding Faster-RCNN which utilizes the above bounding box type is not used in video inference.    
+I created a short video from the large **ALOS-2** scene which is provided in the [official repository](https://github.com/chaozhong2010/HRSID) of the HRSID dataset and I run the Faster-RCNN and YOLOv5 models with normal bounding boxes. The rotated bounding boxes are not supported by the Detectron2 framework for video inference so the corresponding Faster-RCNN which utilizes the above bounding box type it is not used.    
   
 **Faster RCNN with normal bounding boxes**
   
