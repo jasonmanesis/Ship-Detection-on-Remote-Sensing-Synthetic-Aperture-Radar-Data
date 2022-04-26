@@ -15,7 +15,9 @@ To extract the validation set, the training data is divided into 15 groups based
 <div align="center">
   
 #### Parameter Distributions - Normal Bounding Boxes
-![pie_plots_val_aug_rotated](https://user-images.githubusercontent.com/74200033/165339328-1441e963-ca89-47c4-88a7-14cbfa06f1c9.png)
+![augval](https://user-images.githubusercontent.com/74200033/165345774-2edc4487-f2de-460f-b860-784103d067e3.png)
+![augval2](https://user-images.githubusercontent.com/74200033/165345776-686ed0de-e2f0-4374-bd64-51f5c58aa4f8.png)
+
 
 #### Parameter Distributions - Rotated Bounding Boxes
 ![val_aug_rotated](https://user-images.githubusercontent.com/74200033/165337119-61e5b2b7-1990-4d12-bbb3-b5088afa52fb.png)
@@ -47,10 +49,7 @@ To extract the validation set, the training data is divided into 15 groups based
   
 </div align="center">
  
-  
-
-
-
+ 
 ## Rotated Bounding Box Estimation
 
 <div align="justify">
