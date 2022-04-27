@@ -57,5 +57,6 @@ Minimum area rectangle estimation algorithm serially selects every image of the 
 </div align="justify">  
 
 #### Minimum area rectangle estimation algorithm flowchart:
-
-![flowchart](https://user-images.githubusercontent.com/74200033/164459112-c839abf7-840a-4fb7-8d41-1870df7dca12.jpg)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74200033/164459112-c839abf7-840a-4fb7-8d41-1870df7dca12.jpg" width="700" height="990">
+</div align="center">
