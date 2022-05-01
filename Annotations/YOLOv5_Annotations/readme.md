@@ -1,9 +1,13 @@
 # YoloV5 annotations.
 
 <div align="justify">
-Every image in training, test and validation sets has a corresponding .txt file, with the same name as the forementioned image, containing the bounding box properties of all the image's instances. Each row of the .txt file has five variables which are the class id and the four bounding box properties (class x_center y_center width height). The classes are zero-indexed and the geometric properties of the bounding boxes are normalized based on the image's dimensions in order to be elements of [0, 1]. All the annotational files of every set must be in the same folder named "labels" and the corresponding images of the set have to be in the same directory but in another file named "images". The overall folder stucture of the datasets must be as shown below. All the dataset images and their annotations can be downloaded from [HERE]
+Every image in training, test and validation sets has a corresponding .txt file, with the same name as the forementioned image, containing the bounding box properties of all the image's instances. Each row of the .txt file has five variables which are the class id and the four bounding box properties (class x_center y_center width height). The classes are zero-indexed and the geometric properties of the bounding boxes are normalized based on the image's dimensions in order to be elements of [0, 1]. All the annotational files of every set must be in the same folder named "labels" and the corresponding images of the set have to be in the same directory but in another file named "images". The overall folder stucture of the datasets must be as shown below. All the dataset images and their annotations can be downloaded from 
+    
+[`HERE`](https://drive.google.com/file/d/1J3J4LzbYzUQ3Q3ck6iP3v7pICCBNGASm/view?usp=sharing)
     
 </div align="justify">
+
+
 
 ## Yolo dataset folder structure.
 ```
