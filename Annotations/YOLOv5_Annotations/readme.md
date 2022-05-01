@@ -1,37 +1,42 @@
-## Yolo datset folder structure.
-bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla 
+# YoloV5 annotations.
 
+<div align="justify">
+Every image in training test and validation sets has a corresponding .txt file with the same name as the image containing the bounding box properties of all the image's instances. Each row of the .txt file has five variables which are the class id and the four bounding box properties (class x_center y_center width height). The classes are zero-indexed and the geometric properties of the bounding boxes are normalized based on image's dimensions in order to be elements of [0, 1]. All the annotational files of every set must be in the same folder namely "labels" and the corresponding images of the set have to be in the same directory but in another file named "images". The overall folder stucture of the datasets must be as is shown below.
+    
+</div align="justify">
+
+## Yolo dataset folder structure.
 ```
 ├───train
-│   ├───images
+│   ├────images
 │   │    ├───image_name_1.jpg
-│        ├───       ⋮ 
+│   │    ├───       ⋮ 
 │   │    └───image_name_3461.jpg
-│   └───labels
+│   └────labels
 │        ├───image_name_1.txt
 │        ├───       ⋮
 │        └───image_name_3461.txt
 ├───test
-│   ├───images
+│   ├────images
 │   │    ├───image_name_1.jpg
-│        ├───       ⋮ 
+│   │    ├───       ⋮ 
 │   │    └───image_name_1961.jpg
-│   └───labels
+│   └────labels
 │        ├───image_name_1.txt
 │        ├───       ⋮
 │        └───image_name_1961.txt
 └───val
-    ├───images
+    ├────images
     │    ├───image_name_1.jpg
     │    ├───       ⋮ 
     │    └───image_name_256.jpg
-    └───labels
+    └────labels
          ├───image_name_1.txt
-
          ├───       ⋮ 
          └───image_name_256.txt
 ```
 
+## Example:
 | P0080_600_1400_4800_5600.jpg | P0080_600_1400_4800_5600.txt | 
 |:----------------------------:|:----------------------------:|
 |<img src="https://user-images.githubusercontent.com/74200033/166103537-4639491a-a999-4bbe-b49b-5122e1123a83.jpg" width="500"/> |<img src="https://user-images.githubusercontent.com/74200033/166107553-6a157de5-8d45-425c-9291-a479f25b4ff5.png" width="500"/>|
