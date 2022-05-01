@@ -39,4 +39,5 @@ Every image in training test and validation sets has a corresponding .txt file w
 ## Example:
 | P0080_600_1400_4800_5600.jpg | P0080_600_1400_4800_5600.txt | 
 |:----------------------------:|:----------------------------:|
-|<img src="https://user-images.githubusercontent.com/74200033/166103537-4639491a-a999-4bbe-b49b-5122e1123a83.jpg" width="500"/> |<img src="https://user-images.githubusercontent.com/74200033/166107553-6a157de5-8d45-425c-9291-a479f25b4ff5.png" width="500"/>|
+|<img src="https://user-images.githubusercontent.com/74200033/166140021-69d165ea-8302-4703-9c8e-41c70587d2e2.jpg" width="500"/> |<img src="https://user-images.githubusercontent.com/74200033/166140238-385aa85e-ac03-496f-9f30-98d3c5b0d5f7.png" width="500"/>|
+
